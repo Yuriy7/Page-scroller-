@@ -1,0 +1,14 @@
+ function scroll (){   
+ window.scrollBy(0, 1);
+ }  
+ setInterval(scroll, 10);
+ 
+ 
+ ====================================================
+ 
+ var time = 10;
+ var pixel = 1;
+  function scroll (){   
+ window.scrollBy(0, pixel);
+ }  
+ setInterval(scroll, time);
